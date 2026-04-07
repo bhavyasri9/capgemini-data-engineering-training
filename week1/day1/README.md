@@ -1,0 +1,1 @@
+We've started the day 1 of training with the introduction of data engineering and practiced some transformations and cleaning of the data in Databricks. We've practiced how to load csv files and how to create a volume and upload the data in that, and how to create a notebook in the workspace, and learned what the shared folder in the databricks. 
