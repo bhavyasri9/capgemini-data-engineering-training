@@ -1,8 +1,8 @@
-# Day 3 – Advanced SQL: CASE WHEN & Window Functions
+# Day 3 – CASE WHEN & Window Functions
 
 ## Overview
 
-On Day 3 of the training, I worked on advanced SQL concepts including CASE WHEN logic, nested conditions, and window functions. This helped me understand how to apply business rules and perform analytical operations on data.
+On Day 3 of the training, I worked on SQL concepts including CASE WHEN logic, nested conditions, and window functions.
 
 ## What I Learned
 
