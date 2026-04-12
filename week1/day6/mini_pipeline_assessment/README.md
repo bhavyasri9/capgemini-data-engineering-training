@@ -96,7 +96,7 @@ The exam tested practical understanding and application of concepts covered duri
 * Applying proper validation checks
 * Writing correct window functions
 
-## 🎯 Conclusion
+## Conclusion
 
 Day 6 provided hands-on experience in:
 
