@@ -9,7 +9,7 @@ The pipeline demonstrates:
 * Data cleaning and validation
 * Business-level transformations
 * Creation of analytics-ready datasets
-## 🧠 Medallion Architecture
+## Medallion Architecture
 
 ```id="flow_med"
 Bronze (Raw) → Silver (Cleaned) → Gold (Business Insights)
@@ -74,14 +74,13 @@ df.write.format("delta").mode("append").save("/tmp/bronze")
 * Identify duplicate `order_id`
 * Keep only one record
 * Remove negative `amount`
-* 
+  
 ## Gold Layer (Business Insights)
 
-### Aggregations
-
+#### Aggregations
 #### Sales Metrics
-### Customer Metrics
-### Top Analysis
+#### Customer Metrics
+#### Top Analysis
 
 ## Challenges Faced
 
