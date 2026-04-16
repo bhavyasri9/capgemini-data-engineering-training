@@ -16,7 +16,7 @@ Day 1 marks the **initiation of the team project** focused on building a **data 
 * Started **Bronze Layer implementation**
 * Completed initial documentation
 
-## 🎯 Outcome
+## Outcome
 
 * Clear understanding of data and requirements
 * Pipeline structure defined
