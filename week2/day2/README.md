@@ -1,8 +1,13 @@
-# Databricks Widgets – Day 2 (Week 2)
+# Databricks Widgets & Delta Lake – Day 2 (Week 2)
 ## Overview
 
-Day 2 of Week 2 focused on understanding and implementing **Databricks Widgets** to create **dynamic and interactive notebooks**. Widgets allow users to provide input values that can be used in **PySpark transformations and SQL queries**, making pipelines flexible and reusable.
+Day 2 of Week 2 focused on building interactive and production-ready data workflows using:
 
+Databricks Widgets (for dynamic input)
+Delta Lake Tables (for reliable data storage)
+Delta Operations (for updates, deletes, and versioning)
+
+This session helped in understanding how to create parameterized pipelines with efficient storage and processing.
 ## What are Widgets?
 
 Widgets are **input controls in Databricks notebooks** that allow users to:
@@ -10,6 +15,7 @@ Widgets are **input controls in Databricks notebooks** that allow users to:
 * Select values from dropdowns
 * Enter custom input
 * Pass parameters dynamically
+User Input → Widget → Processing Logic → Output
 
 ## Types of Widgets Used
 
@@ -97,6 +103,34 @@ fruit_list = fruit_ms.split(",")
 ```python
 df.filter(col("fruit").isin(fruit_list)).show()
 ```
+### What is Delta Lake?
+
+Delta Lake is a **storage layer on top of data lakes** that provides:
+
+* ACID transactions
+* Schema enforcement
+* Version control (Time Travel)
+
+### Creating Delta Table
+
+```python
+df.write.format("delta").save("/tmp/delta_table")
+```
+### Read Delta Table
+
+```python
+df = spark.read.format("delta").load("/tmp/delta_table")
+```
+
+## Delta Table Operations
+
+*INSERT
+*UPDATE
+*DELETE
+*MERGE (UPSERT)
+*TIME TRAVEL
+*DESCRIBE HISTORY
+
 ## Common Mistakes
 
 * Assigning wrong widget names
@@ -113,10 +147,9 @@ df.filter(col("fruit").isin(fruit_list)).show()
 
 ## Conclusion
 
-Day 2 provided hands-on experience with:
+Day 2 provided hands-on experience in:
 
-* Creating different types of widgets
-* Passing user input into notebooks
-* Building dynamic and reusable workflows
-
-Widgets play a crucial role in making **data pipelines interactive and production-ready**.
+* Creating interactive notebooks using widgets
+* Managing data with Delta Lake
+* Performing advanced operations like update, delete, and merge
+* Building scalable and production-ready data pipelines
