@@ -9,6 +9,17 @@ The pipeline demonstrates:
 * Data cleaning and validation
 * Business-level transformations
 * Creation of analytics-ready datasets
+
+## 👥 Team Project – Day 1 Progress
+
+Day 1 marked the **initiation of the team project**, focusing on:
+
+* Dataset collection and understanding
+* Gathering and analyzing business requirements
+* Planning Medallion Architecture workflow
+* Starting **Bronze Layer implementation**
+* Completing initial project documentation
+
 ## Medallion Architecture
 
 ```id="flow_med"
