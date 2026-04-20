@@ -1,7 +1,8 @@
 # banking-data-analytics
-capgemini project## Video Demo & Repository
+capgemini project
+## Video Demo & Repository
 
-[![View Video Demonstartion]((https://youtu.be/h6x7DUQ4TQI))]
+[![View Video Demonstartion](https://youtu.be/h6x7DUQ4TQI)]
 [![GitHub Repo](https://github.com/bhavyasri9/banking-data-analytics.git)]
 
 # Banking Data Analytics Pipeline using Delta Live Tables
