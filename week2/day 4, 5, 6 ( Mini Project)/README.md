@@ -2,7 +2,7 @@
 capgemini project## Video Demo & Repository
 
 [![View Video Demonstartion]([https://img.shields.io/badge/View-Project-blue?style=for-the-badge](https://youtu.be/h6x7DUQ4TQI))]
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge)]([https://github.com/your-repo](https://github.com/bhavyasri9/banking-data-analytics.git))
+[![GitHub Repo]([https://img.shields.io/badge/View-Project-blue?style=for-the-badge](https://github.com/bhavyasri9/banking-data-analytics.git))]
 
 # Banking Data Analytics Pipeline using Delta Live Tables
 
