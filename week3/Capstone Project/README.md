@@ -69,13 +69,13 @@ Data Sources → Data Factory → Databricks → Data Lake → Power BI Dashboar
 
 ## 🎥 Project Demo
 
-YouTube Video: [https://your-youtube-link-here](https://youtu.be/Wu34cj8ZXNs)
+[YouTube Video](https://youtu.be/Wu34cj8ZXNs)
 
 ---
 
 ## GitHub Repository
 
-Repo Link: [https://your-github-repo-link-here](https://github.com/bhavyasri9/healthCare_Analytics.git)
+[Repo Link](https://github.com/bhavyasri9/healthCare_Analytics.git)
 
 ---
 
